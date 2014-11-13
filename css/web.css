@@ -1,0 +1,59 @@
+body {
+  font-family: "Fira Sans",sans-serif;
+  font-size: 16px;
+  line-height: 1.2;
+  font-style: none;
+  color: #000000;
+  background-color: #D8D8D8;
+}
+
+#container {width: 800px;
+            margin: 0 auto 0 auto;}
+
+header, address {text-align: center;
+                margin-top: 20px;
+}
+
+nav ul {
+  padding: 1em 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: right;
+  padding: 0px 20px 0px 20px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 25px;
+  margin: 32px;
+  font-family: "Stroke";
+  border-top: 1px solid #FFFFFF;
+  border-bottom: 1px solid #000000;
+  background: rgba(426,426,426,0.2)
+}
+
+h3 {
+  text-align: left;
+  font-size: 18px;
+}
+
+p{ text-align: justify;
+}
+
+li {text-align:left;
+}
+
+div {
+  margin: 32px;
+  border: 1px solid #FFF5EE;
+  padding: 17px;
+  width: 500px;
+
+}
+
+footer {
+  color: #995
+  border-top: 1px solid #FFFFFF;
+}
