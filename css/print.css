@@ -19,7 +19,9 @@ nav ul li {
   display: none;
 }
 
-a {text-decoration: none;}
+a:hover {
+  background-color: rgb(160,217,215);
+}
 
 h1 { font-size: 27pt;}
 h2 {

@@ -1,59 +1,105 @@
 body {
-  font-family: "Fira Sans",sans-serif;
+  font-family: "Questrial",sans-serif;
   font-size: 16px;
   line-height: 1.2;
   font-style: none;
-  color: #000000;
-  background-color: #D8D8D8;
+  background-image: url("../images/symphony.png");
 }
 
-#container {width: 800px;
-            margin: 0 auto 0 auto;}
+#resume #container {width: 800px;
+  margin: 0 auto;}
+
+#dance #container {width: 800px;
+    margin: 0 auto;}
+
+
+nav ul {
+    padding: 1em 0;
+}
+
+nav ul li {
+              display: inline-block;
+              margin: right;
+              padding: 0px 5px 0px 5px;
+            }
+
+a:hover {background-color: rgb(160,217,215);
+            }
+
+h2 {text-align: center;
+    font-size: 25px;
+    font-family: "Questrial";
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    background: rgba(426,426,426,0.2)
+            }
+
+h1 {
+  text-align: center;
+}
 
 header, address {text-align: center;
                 margin-top: 20px;
 }
 
-nav ul {
-  padding: 1em 0;
-}
 
-nav ul li {
-  display: inline-block;
-  margin: right;
-  padding: 0px 20px 0px 20px;
-}
-
-h2 {
-  text-align: center;
-  font-size: 25px;
-  margin: 32px;
-  font-family: "Stroke";
-  border-top: 1px solid #FFFFFF;
-  border-bottom: 1px solid #000000;
-  background: rgba(426,426,426,0.2)
-}
-
-h3 {
+#resume h3 {
   text-align: left;
   font-size: 18px;
+  padding-left: 10px;
+  line-height: 1em;
 }
 
-p{ text-align: justify;
+#resume p{ text-align: justify;
+  padding: 0 10px 0 10px;
+  line-height: 1em;
 }
 
-li {text-align:left;
+#resume li {text-align:left;
+  line-height: 1em;
 }
 
-div {
-  margin: 32px;
+#resume div {
+  margin-top: 32px;
   border: 1px solid #FFF5EE;
-  padding: 17px;
+  width: 500px;
+}
+
+#resume footer {
+  color: #995
+  border-top: 1px solid #FFFFFF;
+}
+
+#aboutme div {text-align:center;}
+
+#aboutme img {border: 1px black solid;
+}
+
+#aboutme nav {text-align: center;}
+
+#dance nav {text-align: center;}
+
+#dance h3 {
+  text-align: left;
+  font-size: 18px;
+  padding-left: 10px;
+}
+
+#dance p{ text-align: justify;
+  padding: 0 10px 0 10px;
+}
+
+#dance li {text-align:left;
+}
+
+#dance div {
+  margin-top: 32px;
+  border: 1px solid #FFF5EE;
   width: 500px;
 
 }
 
-footer {
+#dance footer {
   color: #995
   border-top: 1px solid #FFFFFF;
 }
